@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WiFi Password Hack</string>
+    <string name="wifi_password_hacker">WIFI Password Hacker</string>
+    <string name="logo_description">logo</string>
+    <string name="btn_start_now">START NOW</string>
+    <string name="please_wait_while_we_are_hacking_the_networks">Please wait while \nwe are hacking the networks.</string>
+    <string name="wifi_networks">WiFi Networks</string>
+    <string name="wifi_signal_description">WiFi Signal</string>
+    <string name="wifi_name">Name</string>
+    <string name="wifi_wpa_psk">WPA-PSK</string>
+</resources>

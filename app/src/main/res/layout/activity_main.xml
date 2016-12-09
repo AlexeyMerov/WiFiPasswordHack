@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.wifipasshhhwi.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_networks"
+        android:textColor="@color/colorBlack"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/basic_margin"
+        android:layout_marginBottom="@dimen/basic_margin"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="@android:color/transparent"
+        />
+
+</RelativeLayout>
